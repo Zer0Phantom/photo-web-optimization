@@ -1,0 +1,1 @@
+mogrify -verbose -normalize -despeckle -unsharp 0 -enhance -resize 50% -format jpg -quality 90% *.JPG && rm *.JPG
